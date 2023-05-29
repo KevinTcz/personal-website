@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.Project,
+.Skill,
+.Contact {
+  height: 800px;
+}
