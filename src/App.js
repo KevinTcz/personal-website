@@ -2,6 +2,7 @@ import "./App.css";
 import { ChakraBaseProvider, extendBaseTheme } from "@chakra-ui/react";
 import chakraTheme from "@chakra-ui/theme";
 import NavBar from "./components/NavBar";
+import ContactForm from "./components/ContactForm";
 
 const { Button } = chakraTheme.components;
 
@@ -19,7 +20,7 @@ function App() {
         <section className="App-header Home">Hi, I'm Kevin</section>
         <section className="Project">This is Project</section>
         <section className="Skill">This is Skill</section>
-        <section className="Contact">This is Contact</section>
+        <section className="Contact"><ContactForm /></section>
       </div>
     </ChakraBaseProvider>
   );
