@@ -29,7 +29,7 @@ export default function Header() {
                 to={item.label}
                 spy={true}
                 smooth={true}
-                offset={-90}
+                offset={-80}
                 duration={500}
                 // onSetActive={this.handleSetActive}
               >
